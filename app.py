@@ -18,7 +18,7 @@ image_file = st.sidebar.file_uploader("Property Image (JPEG/PNG)", type=["jpg", 
 # Load image classifier
 @st.cache_resource
 def load_image_model():
-    return pipeline("image-classification", model="google/vit-base-patch16-224")
+    return pipeline("image-classification", model="microsoft/resnet-18")
 
 # Simple rule-based risk logic
 def assess_risk(fields, image_label):
