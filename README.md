@@ -7,3 +7,8 @@ This project is automatically generated.
 ```sh
 pip install -r requirements.txt
 ```
+
+## Run the app
+```sh
+streamlit run app.py
+```
