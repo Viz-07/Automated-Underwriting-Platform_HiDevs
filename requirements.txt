@@ -1,2 +1,6 @@
 # Add your project dependencies here
-pip install streamlit PyPDF2 transformers pillow torch
+streamlit 
+PyPDF2 
+transformers 
+pillow 
+torch
